@@ -1,0 +1,19 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package prolab_3;
+
+/**
+ *
+ * @author user
+ */
+public interface Robotlar {
+ public void ileri(int y);
+    public void geri(int y);
+    public void saga(int x);
+    public void sola(int x);
+    public void sonKonum();
+    public void sureyiGoster(int mesafe,String robot,int engel_sayisi);
+}
